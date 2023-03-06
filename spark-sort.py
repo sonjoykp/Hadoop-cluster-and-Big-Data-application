@@ -15,4 +15,5 @@ if __name__ == "__main__":
     df = df.sort(['cca2', 'timestamp'], ascending=[True, True])
     #print(type(df))
     # df.write.csv(outputFile)
-    df.write.option("header","true").csv(outputFile)
+    #df.write.option("header","true").csv(outputFile)
+    df.coalesce(1).write.option("header","true").csv(outputFile)

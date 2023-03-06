@@ -21,3 +21,6 @@ hadoop-2.7.6/logs/
 spark-2.2.0-bin-hadoop2.7/logs/
 spark-2.2.0-bin-hadoop2.7/logs/spark-sonjoyp-org.apache.spark.deploy.master.Master-1-node-0.sonjoyp-c-1-2.umich-d-cs-edu-pg0.wisc.cloudlab.us.out
 spark-2.2.0-bin-hadoop2.7/logs/spark-sonjoyp-org.apache.spark.deploy.worker.Worker-1-node-0.sonjoyp-c-1-2.umich-d-cs-edu-pg0.wisc.cloudlab.us.out
+hadoop-2.7.6/logs/hadoop-sonjoyp-secondarynamenode-node-0.sonjoyp-c-1-2.umich-d-cs-edu-pg0.wisc.cloudlab.us.out
+spark-2.2.0-bin-hadoop2.7/logs/spark-sonjoyp-org.apache.spark.deploy.master.Master-1-node-0.sonjoyp-c-1-2.umich-d-cs-edu-pg0.wisc.cloudlab.us.out
+spark-2.2.0-bin-hadoop2.7/logs/spark-sonjoyp-org.apache.spark.deploy.worker.Worker-1-node-0.sonjoyp-c-1-2.umich-d-cs-edu-pg0.wisc.cloudlab.us.out

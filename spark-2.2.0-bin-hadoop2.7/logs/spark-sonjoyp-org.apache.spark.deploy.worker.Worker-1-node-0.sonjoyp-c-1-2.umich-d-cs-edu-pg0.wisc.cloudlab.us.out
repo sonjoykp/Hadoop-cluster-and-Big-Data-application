@@ -164,3 +164,99 @@ Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
 23/03/06 00:27:14 INFO Worker: Executor app-20230306002657-0005/6 finished with state KILLED exitStatus 143
 23/03/06 00:27:14 INFO ExternalShuffleBlockResolver: Application app-20230306002657-0005 removed, cleanupLocalDirs = true
 23/03/06 00:27:14 INFO Worker: Cleaning up local directories for application app-20230306002657-0005
+23/03/06 04:18:03 WARN HttpParser: Illegal character 0x5 in state=START for buffer HeapByteBuffer@6b96319a[p=1,l=3,c=8192,r=2]={\x05<<<\x01\x00>>>P/1.1 200 OK\r\nDat...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+23/03/06 04:18:03 WARN HttpParser: bad HTTP parsed: 400 Illegal character 0x5 for HttpChannelOverHttp@1703be93{r=0,c=false,a=IDLE,uri=null}
+23/03/06 04:19:12 WARN HttpParser: Illegal character 0x4 in state=START for buffer HeapByteBuffer@4b6d18e9[p=1,l=9,c=8192,r=8]={\x04<<<\x01\x00P\x05\xBc\xD2\xE3\x00>>>400 Illegal chara...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+23/03/06 04:19:12 WARN HttpParser: bad HTTP parsed: 400 Illegal character 0x4 for HttpChannelOverHttp@645b741d{r=0,c=false,a=IDLE,uri=null}
+23/03/06 08:52:50 INFO Worker: Asked to launch executor app-20230306085250-0006/4 for spark-sort
+23/03/06 08:52:50 INFO Worker: Asked to launch executor app-20230306085250-0006/5 for spark-sort
+23/03/06 08:52:50 INFO SecurityManager: Changing view acls to: sonjoyp
+23/03/06 08:52:50 INFO SecurityManager: Changing modify acls to: sonjoyp
+23/03/06 08:52:50 INFO SecurityManager: Changing view acls groups to: 
+23/03/06 08:52:50 INFO SecurityManager: Changing modify acls groups to: 
+23/03/06 08:52:50 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(sonjoyp); groups with view permissions: Set(); users  with modify permissions: Set(sonjoyp); groups with modify permissions: Set()
+23/03/06 08:52:50 INFO Worker: Asked to launch executor app-20230306085250-0006/6 for spark-sort
+23/03/06 08:52:50 INFO SecurityManager: Changing view acls to: sonjoyp
+23/03/06 08:52:50 INFO SecurityManager: Changing modify acls to: sonjoyp
+23/03/06 08:52:50 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java" "-cp" "/users/sonjoyp/spark-2.2.0-bin-hadoop2.7/conf/:/users/sonjoyp/spark-2.2.0-bin-hadoop2.7/jars/*" "-Xmx32768M" "-Dspark.driver.port=39845" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@128.105.144.63:39845" "--executor-id" "4" "--hostname" "128.105.144.63" "--cores" "10" "--app-id" "app-20230306085250-0006" "--worker-url" "spark://Worker@128.105.144.63:36793"
+23/03/06 08:52:50 INFO SecurityManager: Changing view acls groups to: 
+23/03/06 08:52:50 INFO SecurityManager: Changing modify acls groups to: 
+23/03/06 08:52:50 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(sonjoyp); groups with view permissions: Set(); users  with modify permissions: Set(sonjoyp); groups with modify permissions: Set()
+23/03/06 08:52:50 INFO SecurityManager: Changing view acls to: sonjoyp
+23/03/06 08:52:50 INFO SecurityManager: Changing modify acls to: sonjoyp
+23/03/06 08:52:50 INFO SecurityManager: Changing view acls groups to: 
+23/03/06 08:52:50 INFO SecurityManager: Changing modify acls groups to: 
+23/03/06 08:52:50 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(sonjoyp); groups with view permissions: Set(); users  with modify permissions: Set(sonjoyp); groups with modify permissions: Set()
+23/03/06 08:52:50 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java" "-cp" "/users/sonjoyp/spark-2.2.0-bin-hadoop2.7/conf/:/users/sonjoyp/spark-2.2.0-bin-hadoop2.7/jars/*" "-Xmx32768M" "-Dspark.driver.port=39845" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@128.105.144.63:39845" "--executor-id" "5" "--hostname" "128.105.144.63" "--cores" "10" "--app-id" "app-20230306085250-0006" "--worker-url" "spark://Worker@128.105.144.63:36793"
+23/03/06 08:52:50 INFO Worker: Asked to launch executor app-20230306085250-0006/7 for spark-sort
+23/03/06 08:52:50 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java" "-cp" "/users/sonjoyp/spark-2.2.0-bin-hadoop2.7/conf/:/users/sonjoyp/spark-2.2.0-bin-hadoop2.7/jars/*" "-Xmx32768M" "-Dspark.driver.port=39845" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@128.105.144.63:39845" "--executor-id" "6" "--hostname" "128.105.144.63" "--cores" "10" "--app-id" "app-20230306085250-0006" "--worker-url" "spark://Worker@128.105.144.63:36793"
+23/03/06 08:52:50 INFO SecurityManager: Changing view acls to: sonjoyp
+23/03/06 08:52:50 INFO SecurityManager: Changing modify acls to: sonjoyp
+23/03/06 08:52:50 INFO SecurityManager: Changing view acls groups to: 
+23/03/06 08:52:50 INFO SecurityManager: Changing modify acls groups to: 
+23/03/06 08:52:50 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(sonjoyp); groups with view permissions: Set(); users  with modify permissions: Set(sonjoyp); groups with modify permissions: Set()
+23/03/06 08:52:50 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java" "-cp" "/users/sonjoyp/spark-2.2.0-bin-hadoop2.7/conf/:/users/sonjoyp/spark-2.2.0-bin-hadoop2.7/jars/*" "-Xmx32768M" "-Dspark.driver.port=39845" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@128.105.144.63:39845" "--executor-id" "7" "--hostname" "128.105.144.63" "--cores" "10" "--app-id" "app-20230306085250-0006" "--worker-url" "spark://Worker@128.105.144.63:36793"
+23/03/06 08:53:04 INFO Worker: Asked to kill executor app-20230306085250-0006/5
+23/03/06 08:53:04 INFO Worker: Asked to kill executor app-20230306085250-0006/4
+23/03/06 08:53:04 INFO ExecutorRunner: Runner thread for executor app-20230306085250-0006/5 interrupted
+23/03/06 08:53:04 INFO ExecutorRunner: Runner thread for executor app-20230306085250-0006/4 interrupted
+23/03/06 08:53:04 INFO ExecutorRunner: Killing process!
+23/03/06 08:53:04 INFO Worker: Asked to kill executor app-20230306085250-0006/7
+23/03/06 08:53:04 INFO ExecutorRunner: Killing process!
+23/03/06 08:53:04 INFO ExecutorRunner: Runner thread for executor app-20230306085250-0006/7 interrupted
+23/03/06 08:53:04 INFO Worker: Asked to kill executor app-20230306085250-0006/6
+23/03/06 08:53:04 INFO ExecutorRunner: Killing process!
+23/03/06 08:53:04 INFO ExecutorRunner: Runner thread for executor app-20230306085250-0006/6 interrupted
+23/03/06 08:53:04 INFO ExecutorRunner: Killing process!
+23/03/06 08:53:04 INFO Worker: Executor app-20230306085250-0006/5 finished with state KILLED exitStatus 143
+23/03/06 08:53:04 INFO Worker: Executor app-20230306085250-0006/4 finished with state KILLED exitStatus 143
+23/03/06 08:53:04 INFO Worker: Executor app-20230306085250-0006/6 finished with state KILLED exitStatus 143
+23/03/06 08:53:04 INFO Worker: Executor app-20230306085250-0006/7 finished with state KILLED exitStatus 143
+23/03/06 08:53:04 INFO ExternalShuffleBlockResolver: Application app-20230306085250-0006 removed, cleanupLocalDirs = true
+23/03/06 08:53:04 INFO Worker: Cleaning up local directories for application app-20230306085250-0006
+23/03/06 08:57:18 INFO Worker: Asked to launch executor app-20230306085718-0007/4 for spark-sort
+23/03/06 08:57:18 INFO Worker: Asked to launch executor app-20230306085718-0007/5 for spark-sort
+23/03/06 08:57:18 INFO Worker: Asked to launch executor app-20230306085718-0007/6 for spark-sort
+23/03/06 08:57:18 INFO SecurityManager: Changing view acls to: sonjoyp
+23/03/06 08:57:18 INFO SecurityManager: Changing view acls to: sonjoyp
+23/03/06 08:57:18 INFO SecurityManager: Changing modify acls to: sonjoyp
+23/03/06 08:57:18 INFO SecurityManager: Changing modify acls to: sonjoyp
+23/03/06 08:57:18 INFO SecurityManager: Changing view acls groups to: 
+23/03/06 08:57:18 INFO Worker: Asked to launch executor app-20230306085718-0007/7 for spark-sort
+23/03/06 08:57:18 INFO SecurityManager: Changing modify acls groups to: 
+23/03/06 08:57:18 INFO SecurityManager: Changing view acls groups to: 
+23/03/06 08:57:18 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(sonjoyp); groups with view permissions: Set(); users  with modify permissions: Set(sonjoyp); groups with modify permissions: Set()
+23/03/06 08:57:18 INFO SecurityManager: Changing modify acls groups to: 
+23/03/06 08:57:18 INFO SecurityManager: Changing view acls to: sonjoyp
+23/03/06 08:57:18 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(sonjoyp); groups with view permissions: Set(); users  with modify permissions: Set(sonjoyp); groups with modify permissions: Set()
+23/03/06 08:57:18 INFO SecurityManager: Changing modify acls to: sonjoyp
+23/03/06 08:57:18 INFO SecurityManager: Changing view acls groups to: 
+23/03/06 08:57:18 INFO SecurityManager: Changing modify acls groups to: 
+23/03/06 08:57:18 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(sonjoyp); groups with view permissions: Set(); users  with modify permissions: Set(sonjoyp); groups with modify permissions: Set()
+23/03/06 08:57:18 INFO SecurityManager: Changing view acls to: sonjoyp
+23/03/06 08:57:18 INFO SecurityManager: Changing modify acls to: sonjoyp
+23/03/06 08:57:18 INFO SecurityManager: Changing view acls groups to: 
+23/03/06 08:57:18 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java" "-cp" "/users/sonjoyp/spark-2.2.0-bin-hadoop2.7/conf/:/users/sonjoyp/spark-2.2.0-bin-hadoop2.7/jars/*" "-Xmx32768M" "-Dspark.driver.port=45315" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@128.105.144.63:45315" "--executor-id" "4" "--hostname" "128.105.144.63" "--cores" "10" "--app-id" "app-20230306085718-0007" "--worker-url" "spark://Worker@128.105.144.63:36793"
+23/03/06 08:57:18 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java" "-cp" "/users/sonjoyp/spark-2.2.0-bin-hadoop2.7/conf/:/users/sonjoyp/spark-2.2.0-bin-hadoop2.7/jars/*" "-Xmx32768M" "-Dspark.driver.port=45315" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@128.105.144.63:45315" "--executor-id" "6" "--hostname" "128.105.144.63" "--cores" "10" "--app-id" "app-20230306085718-0007" "--worker-url" "spark://Worker@128.105.144.63:36793"
+23/03/06 08:57:18 INFO SecurityManager: Changing modify acls groups to: 
+23/03/06 08:57:18 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java" "-cp" "/users/sonjoyp/spark-2.2.0-bin-hadoop2.7/conf/:/users/sonjoyp/spark-2.2.0-bin-hadoop2.7/jars/*" "-Xmx32768M" "-Dspark.driver.port=45315" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@128.105.144.63:45315" "--executor-id" "5" "--hostname" "128.105.144.63" "--cores" "10" "--app-id" "app-20230306085718-0007" "--worker-url" "spark://Worker@128.105.144.63:36793"
+23/03/06 08:57:18 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(sonjoyp); groups with view permissions: Set(); users  with modify permissions: Set(sonjoyp); groups with modify permissions: Set()
+23/03/06 08:57:18 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java" "-cp" "/users/sonjoyp/spark-2.2.0-bin-hadoop2.7/conf/:/users/sonjoyp/spark-2.2.0-bin-hadoop2.7/jars/*" "-Xmx32768M" "-Dspark.driver.port=45315" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@128.105.144.63:45315" "--executor-id" "7" "--hostname" "128.105.144.63" "--cores" "10" "--app-id" "app-20230306085718-0007" "--worker-url" "spark://Worker@128.105.144.63:36793"
+23/03/06 08:57:33 INFO Worker: Asked to kill executor app-20230306085718-0007/5
+23/03/06 08:57:33 INFO Worker: Asked to kill executor app-20230306085718-0007/4
+23/03/06 08:57:33 INFO ExecutorRunner: Runner thread for executor app-20230306085718-0007/5 interrupted
+23/03/06 08:57:33 INFO ExecutorRunner: Runner thread for executor app-20230306085718-0007/4 interrupted
+23/03/06 08:57:33 INFO ExecutorRunner: Killing process!
+23/03/06 08:57:33 INFO ExecutorRunner: Killing process!
+23/03/06 08:57:33 INFO Worker: Asked to kill executor app-20230306085718-0007/7
+23/03/06 08:57:33 INFO Worker: Asked to kill executor app-20230306085718-0007/6
+23/03/06 08:57:33 INFO ExecutorRunner: Runner thread for executor app-20230306085718-0007/7 interrupted
+23/03/06 08:57:33 INFO ExecutorRunner: Runner thread for executor app-20230306085718-0007/6 interrupted
+23/03/06 08:57:33 INFO ExecutorRunner: Killing process!
+23/03/06 08:57:33 INFO ExecutorRunner: Killing process!
+23/03/06 08:57:33 INFO Worker: Executor app-20230306085718-0007/4 finished with state KILLED exitStatus 143
+23/03/06 08:57:33 INFO Worker: Executor app-20230306085718-0007/5 finished with state KILLED exitStatus 143
+23/03/06 08:57:33 INFO Worker: Executor app-20230306085718-0007/6 finished with state KILLED exitStatus 143
+23/03/06 08:57:33 INFO Worker: Executor app-20230306085718-0007/7 finished with state KILLED exitStatus 143
+23/03/06 08:57:33 INFO ExternalShuffleBlockResolver: Application app-20230306085718-0007 removed, cleanupLocalDirs = true
+23/03/06 08:57:33 INFO Worker: Cleaning up local directories for application app-20230306085718-0007

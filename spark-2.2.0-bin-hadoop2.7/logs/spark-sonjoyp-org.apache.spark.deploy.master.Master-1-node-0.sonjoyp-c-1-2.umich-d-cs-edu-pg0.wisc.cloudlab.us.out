@@ -155,3 +155,89 @@ Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
 23/03/06 00:27:14 WARN Master: Got status update for unknown executor app-20230306002657-0005/4
 23/03/06 00:27:14 WARN Master: Got status update for unknown executor app-20230306002657-0005/7
 23/03/06 00:27:14 WARN Master: Got status update for unknown executor app-20230306002657-0005/6
+23/03/06 06:06:45 WARN HttpParser: Illegal character 0x16 in state=START for buffer HeapByteBuffer@2ac1270c[p=1,l=517,c=8192,r=516]={\x16<<<\x03\x01\x02\x00\x01\x00\x01\xFc\x03\x03\\\xC2\x8cRC\x14^...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+23/03/06 06:06:45 WARN HttpParser: bad HTTP parsed: 400 Illegal character 0x16 for HttpChannelOverHttp@73fafec4{r=0,c=false,a=IDLE,uri=null}
+23/03/06 06:07:25 WARN HttpParser: Illegal character 0x16 in state=START for buffer HeapByteBuffer@116d3894[p=1,l=128,c=8192,r=127]={\x16<<<\x03\x01\x00{\x01\x00\x00w\x03\x03\xC6\xC2H,7,k...\x02\x01\x02\x03\x04\x01\x05\x01\x06\x01\xFf\x01\x00\x01\x00>>>Jetty(9.3.z-SNAPS...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+23/03/06 06:07:25 WARN HttpParser: bad HTTP parsed: 400 Illegal character 0x16 for HttpChannelOverHttp@497d6d04{r=0,c=false,a=IDLE,uri=null}
+23/03/06 06:13:01 WARN HttpParser: Illegal character 0x16 in state=START for buffer HeapByteBuffer@2ac1270c[p=1,l=517,c=8192,r=516]={\x16<<<\x03\x01\x02\x00\x01\x00\x01\xFc\x03\x03\x8e<\x0f\x12\x8fIE...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+23/03/06 06:13:01 WARN HttpParser: bad HTTP parsed: 400 Illegal character 0x16 for HttpChannelOverHttp@387ddb8b{r=0,c=false,a=IDLE,uri=null}
+23/03/06 06:53:17 WARN HttpParser: Illegal character 0x5 in state=START for buffer HeapByteBuffer@116d3894[p=1,l=3,c=8192,r=2]={\x05<<<\x01\x00>>>NECT google.com:4...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+23/03/06 06:53:17 WARN HttpParser: bad HTTP parsed: 400 Illegal character 0x5 for HttpChannelOverHttp@695aa59{r=0,c=false,a=IDLE,uri=null}
+23/03/06 06:53:53 WARN HttpParser: Illegal character 0x4 in state=START for buffer HeapByteBuffer@2ac1270c[p=1,l=9,c=8192,r=8]={\x04<<<\x01\x00P\x05\xBc\xD2\xE3\x00>>>400 Illegal chara...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+23/03/06 06:53:53 WARN HttpParser: bad HTTP parsed: 400 Illegal character 0x4 for HttpChannelOverHttp@2aa2e53{r=0,c=false,a=IDLE,uri=null}
+23/03/06 08:52:50 INFO Master: Registering app spark-sort
+23/03/06 08:52:50 INFO Master: Registered app spark-sort with ID app-20230306085250-0006
+23/03/06 08:52:50 INFO Master: Launching executor app-20230306085250-0006/0 on worker worker-20230305234356-128.105.144.59-46751
+23/03/06 08:52:50 INFO Master: Launching executor app-20230306085250-0006/1 on worker worker-20230305234356-128.105.144.59-46751
+23/03/06 08:52:50 INFO Master: Launching executor app-20230306085250-0006/2 on worker worker-20230305234356-128.105.144.59-46751
+23/03/06 08:52:50 INFO Master: Launching executor app-20230306085250-0006/3 on worker worker-20230305234356-128.105.144.59-46751
+23/03/06 08:52:50 INFO Master: Launching executor app-20230306085250-0006/4 on worker worker-20230305234356-128.105.144.63-36793
+23/03/06 08:52:50 INFO Master: Launching executor app-20230306085250-0006/5 on worker worker-20230305234356-128.105.144.63-36793
+23/03/06 08:52:50 INFO Master: Launching executor app-20230306085250-0006/6 on worker worker-20230305234356-128.105.144.63-36793
+23/03/06 08:52:50 INFO Master: Launching executor app-20230306085250-0006/7 on worker worker-20230305234356-128.105.144.63-36793
+23/03/06 08:52:50 INFO Master: Launching executor app-20230306085250-0006/8 on worker worker-20230305234356-128.105.144.68-34399
+23/03/06 08:52:50 INFO Master: Launching executor app-20230306085250-0006/9 on worker worker-20230305234356-128.105.144.68-34399
+23/03/06 08:52:50 INFO Master: Launching executor app-20230306085250-0006/10 on worker worker-20230305234356-128.105.144.68-34399
+23/03/06 08:52:50 INFO Master: Launching executor app-20230306085250-0006/11 on worker worker-20230305234356-128.105.144.68-34399
+23/03/06 08:52:50 INFO Master: Launching executor app-20230306085250-0006/12 on worker worker-20230305234356-128.105.144.61-35841
+23/03/06 08:52:50 INFO Master: Launching executor app-20230306085250-0006/13 on worker worker-20230305234356-128.105.144.61-35841
+23/03/06 08:52:50 INFO Master: Launching executor app-20230306085250-0006/14 on worker worker-20230305234356-128.105.144.61-35841
+23/03/06 08:52:50 INFO Master: Launching executor app-20230306085250-0006/15 on worker worker-20230305234356-128.105.144.61-35841
+23/03/06 08:53:04 INFO Master: Received unregister request from application app-20230306085250-0006
+23/03/06 08:53:04 INFO Master: Removing app app-20230306085250-0006
+23/03/06 08:53:04 INFO Master: 128.105.144.63:53370 got disassociated, removing it.
+23/03/06 08:53:04 INFO Master: 128.105.144.63:39845 got disassociated, removing it.
+23/03/06 08:53:04 WARN Master: Got status update for unknown executor app-20230306085250-0006/14
+23/03/06 08:53:04 WARN Master: Got status update for unknown executor app-20230306085250-0006/5
+23/03/06 08:53:04 WARN Master: Got status update for unknown executor app-20230306085250-0006/9
+23/03/06 08:53:04 WARN Master: Got status update for unknown executor app-20230306085250-0006/8
+23/03/06 08:53:04 WARN Master: Got status update for unknown executor app-20230306085250-0006/13
+23/03/06 08:53:04 WARN Master: Got status update for unknown executor app-20230306085250-0006/11
+23/03/06 08:53:04 WARN Master: Got status update for unknown executor app-20230306085250-0006/4
+23/03/06 08:53:04 WARN Master: Got status update for unknown executor app-20230306085250-0006/10
+23/03/06 08:53:04 WARN Master: Got status update for unknown executor app-20230306085250-0006/6
+23/03/06 08:53:04 WARN Master: Got status update for unknown executor app-20230306085250-0006/2
+23/03/06 08:53:04 WARN Master: Got status update for unknown executor app-20230306085250-0006/0
+23/03/06 08:53:04 WARN Master: Got status update for unknown executor app-20230306085250-0006/3
+23/03/06 08:53:04 WARN Master: Got status update for unknown executor app-20230306085250-0006/1
+23/03/06 08:53:04 WARN Master: Got status update for unknown executor app-20230306085250-0006/7
+23/03/06 08:53:04 WARN Master: Got status update for unknown executor app-20230306085250-0006/15
+23/03/06 08:53:04 WARN Master: Got status update for unknown executor app-20230306085250-0006/12
+23/03/06 08:57:18 INFO Master: Registering app spark-sort
+23/03/06 08:57:18 INFO Master: Registered app spark-sort with ID app-20230306085718-0007
+23/03/06 08:57:18 INFO Master: Launching executor app-20230306085718-0007/0 on worker worker-20230305234356-128.105.144.59-46751
+23/03/06 08:57:18 INFO Master: Launching executor app-20230306085718-0007/1 on worker worker-20230305234356-128.105.144.59-46751
+23/03/06 08:57:18 INFO Master: Launching executor app-20230306085718-0007/2 on worker worker-20230305234356-128.105.144.59-46751
+23/03/06 08:57:18 INFO Master: Launching executor app-20230306085718-0007/3 on worker worker-20230305234356-128.105.144.59-46751
+23/03/06 08:57:18 INFO Master: Launching executor app-20230306085718-0007/4 on worker worker-20230305234356-128.105.144.63-36793
+23/03/06 08:57:18 INFO Master: Launching executor app-20230306085718-0007/5 on worker worker-20230305234356-128.105.144.63-36793
+23/03/06 08:57:18 INFO Master: Launching executor app-20230306085718-0007/6 on worker worker-20230305234356-128.105.144.63-36793
+23/03/06 08:57:18 INFO Master: Launching executor app-20230306085718-0007/7 on worker worker-20230305234356-128.105.144.63-36793
+23/03/06 08:57:18 INFO Master: Launching executor app-20230306085718-0007/8 on worker worker-20230305234356-128.105.144.68-34399
+23/03/06 08:57:18 INFO Master: Launching executor app-20230306085718-0007/9 on worker worker-20230305234356-128.105.144.68-34399
+23/03/06 08:57:18 INFO Master: Launching executor app-20230306085718-0007/10 on worker worker-20230305234356-128.105.144.68-34399
+23/03/06 08:57:18 INFO Master: Launching executor app-20230306085718-0007/11 on worker worker-20230305234356-128.105.144.68-34399
+23/03/06 08:57:18 INFO Master: Launching executor app-20230306085718-0007/12 on worker worker-20230305234356-128.105.144.61-35841
+23/03/06 08:57:18 INFO Master: Launching executor app-20230306085718-0007/13 on worker worker-20230305234356-128.105.144.61-35841
+23/03/06 08:57:18 INFO Master: Launching executor app-20230306085718-0007/14 on worker worker-20230305234356-128.105.144.61-35841
+23/03/06 08:57:18 INFO Master: Launching executor app-20230306085718-0007/15 on worker worker-20230305234356-128.105.144.61-35841
+23/03/06 08:57:33 INFO Master: Received unregister request from application app-20230306085718-0007
+23/03/06 08:57:33 INFO Master: Removing app app-20230306085718-0007
+23/03/06 08:57:33 INFO Master: 128.105.144.63:53434 got disassociated, removing it.
+23/03/06 08:57:33 INFO Master: 128.105.144.63:45315 got disassociated, removing it.
+23/03/06 08:57:33 WARN Master: Got status update for unknown executor app-20230306085718-0007/2
+23/03/06 08:57:33 WARN Master: Got status update for unknown executor app-20230306085718-0007/15
+23/03/06 08:57:33 WARN Master: Got status update for unknown executor app-20230306085718-0007/12
+23/03/06 08:57:33 WARN Master: Got status update for unknown executor app-20230306085718-0007/14
+23/03/06 08:57:33 WARN Master: Got status update for unknown executor app-20230306085718-0007/13
+23/03/06 08:57:33 WARN Master: Got status update for unknown executor app-20230306085718-0007/10
+23/03/06 08:57:33 WARN Master: Got status update for unknown executor app-20230306085718-0007/1
+23/03/06 08:57:33 WARN Master: Got status update for unknown executor app-20230306085718-0007/3
+23/03/06 08:57:33 WARN Master: Got status update for unknown executor app-20230306085718-0007/9
+23/03/06 08:57:33 WARN Master: Got status update for unknown executor app-20230306085718-0007/4
+23/03/06 08:57:33 WARN Master: Got status update for unknown executor app-20230306085718-0007/5
+23/03/06 08:57:33 WARN Master: Got status update for unknown executor app-20230306085718-0007/0
+23/03/06 08:57:33 WARN Master: Got status update for unknown executor app-20230306085718-0007/8
+23/03/06 08:57:33 WARN Master: Got status update for unknown executor app-20230306085718-0007/11
+23/03/06 08:57:33 WARN Master: Got status update for unknown executor app-20230306085718-0007/6
+23/03/06 08:57:33 WARN Master: Got status update for unknown executor app-20230306085718-0007/7
