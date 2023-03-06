@@ -13,3 +13,4 @@ spark-2.2.0-bin-hadoop2.7.tgz
 .viminfo
 .vscode-server/
 .wget-hsts
+spark-2.2.0-bin-hadoop2.7/work/
