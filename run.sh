@@ -1,7 +1,7 @@
 #/bin/bash
 
-export HADOOP_HOME=/users/sonjoyp/hadoop-2.7.6
-export SPARK_HOME=/users/sonjoyp/spark-2.2.0-bin-hadoop2.7
+export HADOOP_HOME=~/hadoop-2.7.6
+export SPARK_HOME=~/spark-2.2.0-bin-hadoop2.7
 export PATH=$PATH:$HADOOP_HOME/bin
 export PATH=$PATH:$HADOOP_HOME/sbin
 export PATH=$PATH:$SPARK_HOME/bin

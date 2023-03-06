@@ -14,3 +14,8 @@ spark-2.2.0-bin-hadoop2.7.tgz
 .vscode-server/
 .wget-hsts
 spark-2.2.0-bin-hadoop2.7/work/
+spark-2.2.0-bin-hadoop2.7/logs/
+hadoop-2.7.6/data/namenode/
+hadoop-2.7.6/data/datanode/
+hadoop-2.7.6/logs/
+spark-2.2.0-bin-hadoop2.7/logs/

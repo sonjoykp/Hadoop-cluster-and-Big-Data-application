@@ -16,7 +16,7 @@
 #
 
 # A Spark Worker will be started on each of the machines listed below.
-c240g5-110201.wisc.cloudlab.us
-c240g5-110219.wisc.cloudlab.us
-c240g5-110205.wisc.cloudlab.us
 c240g5-110209.wisc.cloudlab.us
+c240g5-110205.wisc.cloudlab.us
+c240g5-110219.wisc.cloudlab.us
+c240g5-110201.wisc.cloudlab.us
