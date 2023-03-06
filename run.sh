@@ -7,12 +7,14 @@ export PATH=$PATH:$HADOOP_HOME/sbin
 export PATH=$PATH:$SPARK_HOME/bin
 export PATH=$PATH:$SPARK_HOME/sbin
 
+hadoop fs -rm -r /distributed-dir
 wget -O inputfile.csv https://www2.cs.uic.edu/~brents/cs494-cdcs/data/export
 hadoop fs -mkdir /distributed-dir
 hadoop fs -put inputfile.csv /distributed-dir
 
+#Please change the MASTER_IP and Ports if needed
 MASTER_IP=c240g5-110209.wisc.cloudlab.us
 SPARK_PORT=7077
 HADOOP_PORT=9000
 
-spark-submit --master spark://$MASTER_IP:$SPARK_PORT --deploy-mode client --executor-memory 32g  spark-sort.py hdfs://$MASTER_IP:$HADOOP_PORT/distributed-dir/inputfile.csv hdfs://$MASTER_IP:$HADOOP_PORT/distributed-dir/sorted-output
+spark-submit --master spark://$MASTER_IP:$SPARK_PORT --deploy-mode client  spark-sort.py hdfs://$MASTER_IP:$HADOOP_PORT/distributed-dir/inputfile.csv hdfs://$MASTER_IP:$HADOOP_PORT/distributed-dir/sorted-output
